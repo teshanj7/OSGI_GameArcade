@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Instructionpublisher
+Bundle-SymbolicName: com.gamearcade.instructionpublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.gamearcade.instructionpublisher.InstructionPublisherActivator
+Bundle-Vendor: GAMEARCADE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.gamearcade.instructionpublisher
+Import-Package: com.gamearcade.instructionpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.gamearcade.instructionpublisher

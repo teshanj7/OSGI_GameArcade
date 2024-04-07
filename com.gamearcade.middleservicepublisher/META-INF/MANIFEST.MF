@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Middleservicepublisher
+Bundle-SymbolicName: com.gamearcade.middleservicepublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.gamearcade.middleservicepublisher.MiddleServicePublsherActivator
+Bundle-Vendor: GAMEARCADE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.gamearcade.middleservicepublisher
+Import-Package: com.gamearcade.developerpublisher,
+ com.gamearcade.eventpublisher,
+ com.gamearcade.gamepublisher,
+ com.gamearcade.instructionpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.gamearcade.middleservicepublisher

@@ -1,0 +1,45 @@
+# GAMING-ARCADE OGSI
+
+Our team developed a producer-consumer scenario using the Equinox OSGI Framework for a gaming arcade which is a system where users could look at various games and play games for their own experience.
+
+## Clients (Consumers)
+
+Within this system, there will be four main clients (consumers) that will be using this system for various purposes. They are:
+
+- Administrator
+- Developers
+- Players
+- Event Organizers
+
+### Players
+
+Players can play games such as 'minesweeper' and 'tic-tac-toe' for a gaming experience which are implemented in the system. The players can also view game details, look at gaming events, and the instructions published by the developers, event organizers, and the administrators, respectively.
+
+### Administrators
+
+The administrators can post instructions on how to use the system and how to play the respective games as well as they can monitor the game details posted by the developer organizations and the event details posted by the event organizers.
+
+### Developers
+
+The developers can post about their game and give descriptions for the players to give an insight into their games and also update and delete the game details, respectively.
+
+### Event Organizers
+
+The event organizers can host events regarding game launches, parties, and post event details so the community can get notices regarding it.
+
+## Producers
+
+There are also 5 specific producers that provide services for the above-mentioned consumers (clients). They are:
+
+- Instruction Publisher
+- Game Publisher
+- Developer Game Publisher
+- Event Publisher
+- Middle Service Publisher
+
+## Group Members
+
+- IT21321436    :  Gunatilleke M.B.D.S
+- IT21343216    :  Dilshan W.A.B
+- IT21345296    :  Jayakody T.N.A
+- IT21338052    :  Pathirana J.K.H

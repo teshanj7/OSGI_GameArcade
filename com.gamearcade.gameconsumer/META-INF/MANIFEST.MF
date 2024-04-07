@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gameconsumer
+Bundle-SymbolicName: com.gamearcade.gameconsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.gamearcade.gameconsumer.GameConsumerActivator
+Bundle-Vendor: GAMEARCADE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.3.0"
+Require-Bundle: com.gamearcade.gamepublisher;bundle-version="1.0.0"
